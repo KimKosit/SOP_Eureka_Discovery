@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@RestController
 public class DiscoveryClientApplication {
 	@Autowired
 	private ServiceDiscoveryClient serviceDiscoveryClient;

@@ -6,3 +6,6 @@ server:
       fetchRegistry: false
     server:
       waitTimeInMsWhenSyncEmpty: 5
+spring:
+  application:
+    name: discoveryserver
